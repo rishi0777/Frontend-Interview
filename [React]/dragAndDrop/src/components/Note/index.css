@@ -1,0 +1,19 @@
+.note {
+  cursor: move;
+  user-select: none;
+  position: absolute;
+  width: 226px;
+  /* height: 150px; */
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px 4px rgba(40, 44, 63, 0.07);
+  background: lightyellow;
+}
+
+.content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
